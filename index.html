@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 视口，移动端设备布局 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<title>天气app</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery3.2.1.min.js"></script>
+	<!-- js帮助计算 -->
+	<script src="js/rem.js"></script>
+	<script src="js/index.js"></script>
+
+</head>
+<body>
+	<!-- 当前天气情况开始 -->
+	<div class="first">
+		<div class="pos">太原市</div>
+		<div class="air">
+			<h4>空气</h4>
+			<h5></h5>
+		</div>
+		<div class="title1"></div>
+		<div class="title2"></div>
+		<div class="title3">
+		<!-- 文字标签，默认从左往右排 -->
+			<span class="wind_der"></span>
+			<span class="wet wind_level"></span>
+		</div>
+		<div class="title4">你若安好，便是晴天</div>
+	</div>
+	<!-- 当前天气情况结束 -->
+	<!-- 今天和明天天气情况开始 -->
+	<div class="second">
+		<div class="today">
+			<div class="top">
+				<div class="todayText">今天</div>
+				<div class="tem">
+					<span class="heigher">2°/</span>
+					<span class="lower">-11°</span>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="con">晴转多云</div>
+				<div class="conPic"></div>
+			</div>
+		</div>
+		<div class="tomorrow">
+			<div class="top">
+				<div class="tomText">明天</div>
+				<div class="tem">
+					<span class="heigher1">3°/</span>
+					<span class="lower1">-10°</span>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="con tomorrow_con">晴</div>
+				<div class="conPic tomorrow_icon"></div>
+			</div>
+		</div>
+	</div>
+	<!-- 今天和明天天气情况结束 -->
+	<!-- 24小时天气预报开始 -->
+	<div class="third">
+		<div class="wrap">
+			<!-- <div class="box">
+				<div class="time">
+				<span>12</span>
+				<span>:</span>
+				<span>00</span>
+				</div>
+				<div class="icon"></div>
+				<div class="timeTem">-1°</div>
+			</div> -->
+		</div>
+	</div>
+	<!-- 24小时天气预报结束 -->
+	<!-- 一周天气变化开始 -->
+	<div class="fourth">
+		<div class="wrap1">
+			<!-- <div class="box">
+			<div class="date">01/15</div>
+			<div class="weather">多云</div>
+			<div class="icon"></div>
+			<div class="higher">3</div>
+			<div class="lower">-12</div>
+			<div class="wind">西北风</div>
+			<div class="degree">3级</div>
+			</div> -->
+		</div>	
+	</div>
+	<!-- 一周天气变化结束 -->
+	<!-- 开始 -->
+	<div class="fifth">
+		<div class="box">
+			<div class="box1"></div>
+			<div class="box2">不带伞</div>
+			<div class="box3">雨伞</div>
+		</div>
+		<div class="box">
+			<div class="box1"></div>
+			<div class="box2">不带伞</div>
+			<div class="box3">雨伞</div>
+		</div>
+		<div class="box">
+			<div class="box1"></div>
+			<div class="box2">冷</div>
+			<div class="box3">穿衣</div>
+		</div>
+		<div class="box">
+			<div class="box1"></div>
+			<div class="box2">较弱</div>
+			<div class="box3">防晒</div>
+		</div>
+		<div class="box">
+			<div class="box1"></div>
+			<div class="box2">不带伞</div>
+			<div class="box3">雨伞</div>
+		</div>
+		<div class="box">
+			<div class="box1"></div>
+			<div class="box2">较易发</div>
+			<div class="box3">感冒</div>
+		</div>
+		<div class="box">
+			<div class="box1"></div>
+			<div class="box2">较不宜</div>
+			<div class="box3">运动</div>
+		</div>
+		<div class="box">
+			<div class="box1"></div>
+			<div class="box2">较适宜</div>
+			<div class="box3">洗车</div>
+		</div>
+
+	</div>
+	<!-- 结束 -->
+	<!-- 城市搜索开始 -->
+	<div class="city">
+		<div class="search">
+			<input type="text" class="searchBox"
+			placeholder="请输入要搜索的城市名称">
+			<div class="button">取消</div>
+		</div>
+		<div class="citys city1" >
+			<div class="title">热门城市</div>
+			<div class="con">
+				<div class="box">太原</div>
+				<div class="box">运城</div>
+				<div class="box">济南</div>
+				<div class="box">西安</div>
+				<div class="box">深圳</div>	
+				<div class="box">云南</div>	
+		    </div>
+		</div>
+	</div>	
+	
+	<!-- 城市搜索结束 -->
+</body>
+</html>
